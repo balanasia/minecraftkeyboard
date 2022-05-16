@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  background-color: #00AA00;
+  font-family: 'VT323', monospace;
+}
+
+/* .container-fluid {
+  padding: 0 20% 0 20%;
+} */
+
+.title {
+  font-size: 5rem;
+  margin: 5%;
+}
+
+/* Buttons */
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.item {
+  padding-top: 200px;
+  outline: none;
+  color: black;
+  text-shadow: 3px 0 white;
+  font-size: 3rem;
+  border-radius: 5px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  position: relative;
+  background-color: #555555;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Images for Buttons */
+.w {
+  background-image: url("images/bread.webp");
+}
+
+.a {
+  background-image: url("images/chicken.webp");
+}
+
+.s {
+  background-image: url("images/cow.webp");
+}
+
+.d {
+  background-image: url("images/creeper.webp");
+  background-size: 45%;
+  background-position: bottom;
+}
+
+.i {
+  background-image: url("images/enderman.png");
+  background-size: 130%;
+}
+
+.j {
+  background-image: url("images/skeleton.webp");
+  background-size: 50%;
+  background-position: bottom;
+}
+
+.k {
+  background-image: url("images/hit.webp");
+  background-size: 50%;
+}
+
+.l {
+  background-image: url("images/villager.webp");
+  background-size: 45%;
+  background-position: bottom;
+}
+
+.m {
+  background-image: url("images/water.webp");
+}
+
+/* Footer */
+footer {
+  margin: 5%;
+}
+
+.heart {
+  width: 1.5%;
+  margin: 0 2px 0 2px;
+}
